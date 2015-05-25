@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array
+        name="pricesArray">
+        <item
+            >Nombre Premio 1 --- costo --- disponibles</item>
+        <item
+            >Nombre Premio 2 --- costo --- disponibles</item>
+        <item
+            >Nombre Premio 3 --- costo --- disponibles</item>
+        <item
+            >Nombre Premio 4 --- costo --- disponibles</item>
+    </string-array>
+
+    <string name="prize1">Premio 1</string>
+    <string name="prize2">Premio 2</string>
+    <string name="prize3">Premio 3</string>
+
+</resources>

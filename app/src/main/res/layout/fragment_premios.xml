@@ -1,0 +1,62 @@
+<ScrollView android:id="@+id/prizesScrollView" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="fragments.Premios">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/barcelona"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:drawablePadding="2dp"
+                android:drawableTop="@mipmap/gratis50"
+                android:gravity="center_horizontal"
+                android:text="@string/prize1"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_column="0"/>
+
+
+
+            <TextView
+                android:id="@+id/xBAr"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:drawablePadding="2dp"
+                android:drawableTop="@mipmap/gratis"
+                android:gravity="center_horizontal"
+                android:text="@string/prize2"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_column="0"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/drink"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:drawablePadding="2dp"
+                android:drawableTop="@mipmap/promo"
+                android:gravity="center_horizontal"
+                android:text="@string/prize3"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_column="0"/>
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>
