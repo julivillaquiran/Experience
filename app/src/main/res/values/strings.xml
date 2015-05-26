@@ -18,8 +18,12 @@
 
     <string name="retos_NuevoReto">Nuevo Reto</string>
 
+    <string name="prizeRedemption">Muestra el siguiente codigo al momento de tu pago para hacer efectivo tu premio</string>
+    <string name="prizeRedemptionPlaceHolder">SU CODIGO DE DESCUENTO VA ACÁ</string>
+
 <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_prize_detail">PrizeDetail</string>
 
 
 </resources>
