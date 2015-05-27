@@ -34,6 +34,14 @@
             android:name=".UserSelection"
             android:label="@string/title_activity_user_selection" >
         </activity>
+        <activity
+            android:name=".ChallengeSelector"
+            android:label="@string/title_activity_challenge_selector" >
+        </activity>
+        <activity
+            android:name=".ChallengeDescription"
+            android:label="@string/title_activity_challenge_description" >
+        </activity>
     </application>
 
 </manifest>

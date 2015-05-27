@@ -6,17 +6,18 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 //import android.app.Fragment;
-import android.support.v4.app.FragmentTransaction;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import julianv.com.experience.PrizeDetail;
 import julianv.com.experience.R;
 
 /**
+ * @author JulianV
+ * @link https://github.com/julivillaquiran
+ *
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
  * {@link Premios.OnFragmentInteractionListener} interface
@@ -140,7 +141,7 @@ public class Premios extends Fragment {
     /**
      * This interface must be implemented by activities that contain this
      * fragment to allow an interaction in this fragment to be communicated
-     * to the activity and potentially other fragments contained in that
+     * to the activity and potentially other julianv.com.julianv.com.fragments contained in that
      * activity.
      * <p/>
      * See the Android Training lesson <a href=

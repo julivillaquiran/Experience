@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array
+        name="challengesArray">
+        <item
+            >@mipmap/camp</item>
+        <item
+            >@mipmap/time</item>
+        <item
+            >@mipmap/explore</item>
+    </string-array>
+</resources>

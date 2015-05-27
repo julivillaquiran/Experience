@@ -1,23 +1,35 @@
 package julianv.com.experience;
 
 import android.app.Activity;
-import android.view.Menu;
-import android.view.MenuItem;
-import android.app.ListActivity;
+import android.content.Intent;
 import android.os.Bundle;
 import java.util.ArrayList;
 import java.util.List;
 
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.Button;
 import android.widget.ListView;
 import android.widget.Toast;
 import android.widget.AdapterView.OnItemClickListener;
 
+import adapters.CustomUserArrayAdapter;
+import julianv.com.utils.UsersRow;
+
+/**
+ * Custom adapter - "View Holder Pattern".
+ * @link http://danielme.com/2013/10/09/diseno-android-listview-con-checkbox/
+ * @author danielme.com
+ *
+ * Modifications JulianV
+ * @link https://github.com/julivillaquiran
+ *
+ */
 
 public class UserSelection extends Activity {
 
     List<UsersRow> rows;
+    private Button continueBtn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -44,6 +56,18 @@ public class UserSelection extends Activity {
                 Toast.makeText(UserSelection.this, rows.get(position).getTitle(), Toast.LENGTH_SHORT).show();
             }
         });
+
+        continueBtn = (Button) findViewById(R.id.userSelectionContinueBtn);
+
+        View.OnClickListener oclBtn = new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(UserSelection.this, ChallengeSelector.class));
+
+            }
+        };
+
+        continueBtn.setOnClickListener(oclBtn);
     }
 
     /*@Override

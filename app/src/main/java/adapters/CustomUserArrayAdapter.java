@@ -1,4 +1,4 @@
-package julianv.com.experience;
+package adapters;
 
 import java.util.List;
 import android.content.Context;
@@ -10,8 +10,14 @@ import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.TextView;
 
+import julianv.com.experience.R;
+import julianv.com.utils.UsersRow;
+
 /**
- * Created by JulianV on 26/05/2015.
+ * Custom adapter - "View Holder Pattern".
+ * @link http://danielme.com/2013/10/09/diseno-android-listview-con-checkbox/
+ * @author danielme.com
+ *
  */
 public class CustomUserArrayAdapter extends ArrayAdapter<UsersRow>
 {

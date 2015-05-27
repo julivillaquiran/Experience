@@ -33,7 +33,10 @@ import java.util.List;
 
 /**
  * A login screen that offers login via email/password.
+ * @ModifyBy JulianV
+ * @link https://github.com/julivillaquiran
  */
+
 public class LoginActivity extends Activity implements LoaderCallbacks<Cursor> {
 
     /**

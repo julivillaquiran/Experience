@@ -5,14 +5,26 @@
 
     <!-- TODO: Update blank fragment layout -->
 
-    <ScrollView
+    <GridView  android:id="@+id/activeChallengeSelectorGrid" xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:columnWidth="90dp"
+        android:numColumns="auto_fit"
+        android:verticalSpacing="10dp"
+        android:horizontalSpacing="10dp"
+        android:stretchMode="columnWidth"
+        android:gravity="center">
+
+    </GridView >
+
+    <!--<ScrollView
         android:layout_width="match_parent"
         android:layout_height="394dp"
         android:id="@+id/scrollView2"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_above="@+id/retosNuevoRetoBtn" >
+        android:layout_above="@+id/newChallengeBtn">
 
         <TableLayout
             android:layout_width="match_parent"
@@ -55,6 +67,7 @@
             </TableRow>
         </TableLayout>
     </ScrollView>
+    -->
 
     <Button
         android:layout_width="fill_parent"

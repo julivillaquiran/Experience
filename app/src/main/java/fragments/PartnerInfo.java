@@ -11,6 +11,10 @@ import android.view.ViewGroup;
 import julianv.com.experience.R;
 
 /**
+ *
+ * @author JulianV
+ * @link https://github.com/julivillaquiran
+ *
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
  * {@link PartnerInfo.OnFragmentInteractionListener} interface
@@ -95,7 +99,7 @@ public class PartnerInfo extends Fragment {
     /**
      * This interface must be implemented by activities that contain this
      * fragment to allow an interaction in this fragment to be communicated
-     * to the activity and potentially other fragments contained in that
+     * to the activity and potentially other julianv.com.julianv.com.fragments contained in that
      * activity.
      * <p/>
      * See the Android Training lesson <a href=

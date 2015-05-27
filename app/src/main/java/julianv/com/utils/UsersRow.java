@@ -1,7 +1,8 @@
-package julianv.com.experience;
+package julianv.com.utils;
 
 /**
- * Created by JulianV on 26/05/2015.
+ * @link http://danielme.com/2013/10/09/diseno-android-listview-con-checkbox/
+ * @author danielme.com
  */
 public class UsersRow {
     private String title;
