@@ -86,7 +86,6 @@ public class Premios extends Fragment {
         View.OnClickListener oclBtn = new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //return new PrizeDetalle();
                 /*
                 // Create new fragment and transaction
                 Fragment newFragment = new PrizeDetalle();

@@ -60,7 +60,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/retos_NuevoReto"
-        android:id="@+id/retosNuevoRetoBtn"
+        android:id="@+id/newChallengeBtn"
         android:layout_gravity="center_horizontal"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
